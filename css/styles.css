@@ -1,0 +1,117 @@
+body {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; /* Set the default font family to various sans-serif fonts */
+	background-color: yellow; /* Apply a yellow background color to the entire page */
+	color: black; /* Set the default text color to black */
+	text-align: center; /* Center-align all text within the body */
+	padding: 20px; /* Add 20 pixels of padding around the body content */
+}
+
+h1 {
+	font-size: 380%; /* Increase the font size of h1 headings to 380% of the base font size */
+	color: red; /* Set the text color of h1 headings to red */
+	text-shadow: 2px 2px orange; /* Add an orange shadow to the text, offset by 2px horizontally and vertically */
+}
+
+h2 {
+	font-size: 250%; /* Increase the font size of h2 headings to 250% of the base font size */
+	color: red; /* Set the text color of h2 headings to red */
+	text-shadow: 2px 2px orange; /* Apply the same orange text shadow as h1 headings */
+}
+
+button {
+	color: white; /* Set the text color inside buttons to white */
+	padding: 20px; /* Add 20 pixels of padding inside buttons */
+	font-size: 130%; /* Increase the font size inside buttons to 130% of the base font size */
+	border-radius: 100px; /* Make buttons fully rounded by setting a high border-radius */
+}
+
+button:active,
+#noun1:active,
+#noun2:active,
+#adjective:active,
+#verb:active,
+#setting:active,
+#playback:active,
+#random:active,
+#clear:active {
+	/* Change the background color to white when buttons are active (being clicked) */
+	background-color: white;
+}
+
+#noun1 {
+	/* Assign a purple background to the button with ID 'noun1' */
+	background-color: purple;
+}
+
+#verb {
+	/* Assign a cyan background to the button with ID 'verb' */
+	background-color: rgb(0, 174, 255);
+}
+
+#adjective {
+	/* Assign a green background to the button with ID 'adjective' */
+	background-color: green;
+}
+
+#noun2 {
+	/* Assign a orange background to the button with ID 'noun2' */
+	background-color: orange;
+}
+
+#setting {
+	/* Assign a pink background to the button with ID 'setting' */
+	background-color: rgb(252, 105, 130);
+}
+
+#playback {
+	/* Assign a teal background to the button with ID 'playback' */
+	background-color: rgb(46, 202, 103);
+}
+
+#random {
+	/* Assign a orangered background to the button with ID 'random' */
+	background-color: orangered;
+}
+
+#clear {
+	/* Assign a black background to the button with ID 'clear' */
+	background-color: rgb(0, 0, 0);
+}
+
+p {
+	font-size: 130%; /* Increase the font size of all paragraphs to 130% of the base size */
+	color: black; /* Set the text color of paragraphs to black */
+}
+
+section {
+	border: 30px solid rgb(59, 141, 255); /* Add a thick blue border of 30px around section elements */
+	border-radius: 100px; /* Round the corners of sections with a border-radius of 100px */
+}
+
+/* Layout for two vertical columns */
+
+section {
+	margin: 2em; /* Add a margin of 2em around sections to space them out */
+}
+
+#story {
+	font-size: 200%; /* Increase the font size of the element with ID 'story' to 200% */
+	color: white; /* Set the text color within the 'story' element to white */
+	border: 20px solid rgb(59, 141, 255); /* Add a 20px solid blue border around the 'story' element */
+	padding: 20px; /* Add 20 pixels of padding inside the 'story' element */
+
+	/* Create a colorful linear gradient background for the 'story' element */
+	background-image: linear-gradient(
+		/* Direction of the gradient from left to right */ to right,
+		/* Start with purple */ rgba(128, 0, 128, 1),
+		/* Transition to cyan */ rgba(0, 255, 255, 1),
+		/* Then to green */ rgba(0, 128, 0, 1),
+		/* Followed by orange */ rgba(255, 165, 0, 1),
+		/* End with a shade of pink */ rgba(252, 105, 130, 1)
+	);
+}
+
+/* Layout for two vertical columns */
+section {
+	margin: 2em; /* Add a margin of 2em around sections for spacing */
+}
